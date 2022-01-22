@@ -1,7 +1,6 @@
 const express = require('express');
 const path = require('path');
 const db = require('./config/connection');
-const routes = require('./routes');
 
 const { ApolloServer } = require('apollo-server-express');
 const { typeDefs, resolvers } = require('./schemas');
@@ -26,9 +25,9 @@ app.use(express.json());
 
 // if we're in production, serve client/build as static assets
 console.log(process.env.NODE_ENV);
-if (process.env.NODE_ENV === 'production') {
+// if (process.env.NODE_ENV === 'production') {
   app.use(express.static(path.join(__dirname, '../client/build')));
-}
+// }
 
 //app.use(routes);
 app.get('*', (req, res) => {
