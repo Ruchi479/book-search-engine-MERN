@@ -62,10 +62,11 @@ This assignment includes:
 ## Links
 * [The URL of the GitHub repository](https://github.com/Ruchi479/book-search-engine-MERN.git)
 
-* [The URL of application deployed on heroku]()
+* [The URL of application deployed on heroku](https://googlebooks-app-mern.herokuapp.com/)
 
 ## Screenshots
-![Google Book Search Engine](./client/src/assets/)
+![Google Book Search Engine](./client/src/assets/pic2.png)
+![Google Book Search Engine](./client/src/assets/pic1.png)
 
 ## License
 &copy;2021 Ruchi
